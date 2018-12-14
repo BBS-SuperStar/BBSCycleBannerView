@@ -7,17 +7,53 @@
 //
 
 #import "ViewController.h"
+#import "BBSCycleBannerView.h"
+
+static const CGFloat CycleBannerViewHeight = 210;
+#define UISCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define UISCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
+
+@property (nonatomic, strong) BBSCycleBannerView *cycleBannerView;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - LifeCycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self configureCustomSubviews];
 }
 
+#pragma mark - ConfigureCustomSubviews
+
+- (void)configureCustomSubviews {
+    [self.view addSubview:self.cycleBannerView];
+}
+
+#pragma mark - Getters & Setters
+
+- (BBSCycleBannerView *)cycleBannerView {
+    if (_cycleBannerView) {
+        return _cycleBannerView;
+    }
+    NSArray *imageSources = @[[UIImage imageNamed:@"timg.jpeg"],[UIImage imageNamed:@"timg-2.jpeg"],[UIImage imageNamed:@"timg-3.jpeg"],[UIImage imageNamed:@"timg-4.jpeg"]];
+    CGRect frame = CGRectMake(0, 0, UISCREENWIDTH, CycleBannerViewHeight);
+    _cycleBannerView = [[BBSCycleBannerView alloc] initWithFrame:frame
+                                                    imageSources:imageSources];
+    
+    _cycleBannerView.autoCyclePlay = YES;
+    _cycleBannerView.autoPlayTimeInterval = 2;
+    _cycleBannerView.pageIndicatorTintColor = [UIColor yellowColor];
+    _cycleBannerView.currentPageIndicatorTintColor = [UIColor redColor];
+    _cycleBannerView.didTapImageViewCallBack = ^(NSInteger index) {
+        NSLog(@"%ld",index);
+    };
+    return _cycleBannerView;
+}
 
 @end

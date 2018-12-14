@@ -15,6 +15,7 @@
 		4724830721C231A700E9C69C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724830621C231A700E9C69C /* main.m */; };
 		4724831121C231A700E9C69C /* BBSCycleBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724831021C231A700E9C69C /* BBSCycleBannerViewTests.m */; };
 		4724831C21C231A700E9C69C /* BBSCycleBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724831B21C231A700E9C69C /* BBSCycleBannerViewUITests.m */; };
+		4724832B21C231BA00E9C69C /* BBSCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724832A21C231BA00E9C69C /* BBSCycleBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4724831721C231A700E9C69C /* BBSCycleBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBSCycleBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4724831B21C231A700E9C69C /* BBSCycleBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSCycleBannerViewUITests.m; sourceTree = "<group>"; };
 		4724831D21C231A700E9C69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4724832921C231BA00E9C69C /* BBSCycleBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSCycleBannerView.h; sourceTree = "<group>"; };
+		4724832A21C231BA00E9C69C /* BBSCycleBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSCycleBannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4724830221C231A700E9C69C /* LaunchScreen.storyboard */,
 				4724830521C231A700E9C69C /* Info.plist */,
 				4724830621C231A700E9C69C /* main.m */,
+				4724832921C231BA00E9C69C /* BBSCycleBannerView.h */,
+				4724832A21C231BA00E9C69C /* BBSCycleBannerView.m */,
 			);
 			path = BBSCycleBannerView;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				472482FC21C231A600E9C69C /* ViewController.m in Sources */,
 				4724830721C231A700E9C69C /* main.m in Sources */,
 				472482F921C231A600E9C69C /* AppDelegate.m in Sources */,
+				4724832B21C231BA00E9C69C /* BBSCycleBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
