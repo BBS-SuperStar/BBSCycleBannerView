@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4406FCC66D3F7B4C5406E0C1 /* libPods-BBSCycleBannerViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B804137423388292E9BB18 /* libPods-BBSCycleBannerViewUITests.a */; };
 		472482F921C231A600E9C69C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472482F821C231A600E9C69C /* AppDelegate.m */; };
 		472482FC21C231A600E9C69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472482FB21C231A600E9C69C /* ViewController.m */; };
 		472482FF21C231A600E9C69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472482FD21C231A600E9C69C /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		4724831121C231A700E9C69C /* BBSCycleBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724831021C231A700E9C69C /* BBSCycleBannerViewTests.m */; };
 		4724831C21C231A700E9C69C /* BBSCycleBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724831B21C231A700E9C69C /* BBSCycleBannerViewUITests.m */; };
 		4724832B21C231BA00E9C69C /* BBSCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724832A21C231BA00E9C69C /* BBSCycleBannerView.m */; };
+		4C90040057EE198C2637185C /* libPods-BBSCycleBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EDCBADD40D963921FC4841 /* libPods-BBSCycleBannerView.a */; };
+		B9EED35AC65AA18936ECA74D /* libPods-BBSCycleBannerViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8965DC0B5DBEACF436C2BB /* libPods-BBSCycleBannerViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21BC2A9DA843B229FE8B0A7E /* Pods-BBSCycleBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerView/Pods-BBSCycleBannerView.debug.xcconfig"; sourceTree = "<group>"; };
 		472482F421C231A600E9C69C /* BBSCycleBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBSCycleBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472482F721C231A600E9C69C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		472482F821C231A600E9C69C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		4724831D21C231A700E9C69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4724832921C231BA00E9C69C /* BBSCycleBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSCycleBannerView.h; sourceTree = "<group>"; };
 		4724832A21C231BA00E9C69C /* BBSCycleBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSCycleBannerView.m; sourceTree = "<group>"; };
+		6CC25D6FFA3DF73BF61C9968 /* Pods-BBSCycleBannerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerViewTests/Pods-BBSCycleBannerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		885505FD88BE39A8E61707C0 /* Pods-BBSCycleBannerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerViewUITests/Pods-BBSCycleBannerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97541A06797FB6F5FF7F2B91 /* Pods-BBSCycleBannerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerViewUITests/Pods-BBSCycleBannerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1EDCBADD40D963921FC4841 /* libPods-BBSCycleBannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSCycleBannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B804137423388292E9BB18 /* libPods-BBSCycleBannerViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSCycleBannerViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8965DC0B5DBEACF436C2BB /* libPods-BBSCycleBannerViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSCycleBannerViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EC6D127CAD784BC0E75DCD /* Pods-BBSCycleBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerView/Pods-BBSCycleBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		F6F505784732665B77ECDE76 /* Pods-BBSCycleBannerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSCycleBannerViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSCycleBannerViewTests/Pods-BBSCycleBannerViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C90040057EE198C2637185C /* libPods-BBSCycleBannerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EED35AC65AA18936ECA74D /* libPods-BBSCycleBannerViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4406FCC66D3F7B4C5406E0C1 /* libPods-BBSCycleBannerViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7DF4F27EFC538403D5E981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21BC2A9DA843B229FE8B0A7E /* Pods-BBSCycleBannerView.debug.xcconfig */,
+				E0EC6D127CAD784BC0E75DCD /* Pods-BBSCycleBannerView.release.xcconfig */,
+				6CC25D6FFA3DF73BF61C9968 /* Pods-BBSCycleBannerViewTests.debug.xcconfig */,
+				F6F505784732665B77ECDE76 /* Pods-BBSCycleBannerViewTests.release.xcconfig */,
+				97541A06797FB6F5FF7F2B91 /* Pods-BBSCycleBannerViewUITests.debug.xcconfig */,
+				885505FD88BE39A8E61707C0 /* Pods-BBSCycleBannerViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		472482EB21C231A600E9C69C = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				4724830F21C231A700E9C69C /* BBSCycleBannerViewTests */,
 				4724831A21C231A700E9C69C /* BBSCycleBannerViewUITests */,
 				472482F521C231A600E9C69C /* Products */,
+				1A7DF4F27EFC538403D5E981 /* Pods */,
+				58BD83C4CA5BD6F71FDDF3D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +167,16 @@
 			path = BBSCycleBannerViewUITests;
 			sourceTree = "<group>";
 		};
+		58BD83C4CA5BD6F71FDDF3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1EDCBADD40D963921FC4841 /* libPods-BBSCycleBannerView.a */,
+				DD8965DC0B5DBEACF436C2BB /* libPods-BBSCycleBannerViewTests.a */,
+				D7B804137423388292E9BB18 /* libPods-BBSCycleBannerViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4724832021C231A700E9C69C /* Build configuration list for PBXNativeTarget "BBSCycleBannerView" */;
 			buildPhases = (
+				D47E905D9416ACDD85873227 /* [CP] Check Pods Manifest.lock */,
 				472482F021C231A600E9C69C /* Sources */,
 				472482F121C231A600E9C69C /* Frameworks */,
 				472482F221C231A600E9C69C /* Resources */,
@@ -161,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4724832321C231A700E9C69C /* Build configuration list for PBXNativeTarget "BBSCycleBannerViewTests" */;
 			buildPhases = (
+				349EFE8CB8550DEF765CE357 /* [CP] Check Pods Manifest.lock */,
 				4724830821C231A700E9C69C /* Sources */,
 				4724830921C231A700E9C69C /* Frameworks */,
 				4724830A21C231A700E9C69C /* Resources */,
@@ -179,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4724832621C231A700E9C69C /* Build configuration list for PBXNativeTarget "BBSCycleBannerViewUITests" */;
 			buildPhases = (
+				2B3FBE05E4931F0439102B3F /* [CP] Check Pods Manifest.lock */,
 				4724831321C231A700E9C69C /* Sources */,
 				4724831421C231A700E9C69C /* Frameworks */,
 				4724831521C231A700E9C69C /* Resources */,
@@ -261,6 +304,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3FBE05E4931F0439102B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBSCycleBannerViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		349EFE8CB8550DEF765CE357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBSCycleBannerViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47E905D9416ACDD85873227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBSCycleBannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		472482F021C231A600E9C69C /* Sources */ = {
@@ -439,15 +539,13 @@
 		};
 		4724832121C231A700E9C69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BC2A9DA843B229FE8B0A7E /* Pods-BBSCycleBannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,15 +554,13 @@
 		};
 		4724832221C231A700E9C69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EC6D127CAD784BC0E75DCD /* Pods-BBSCycleBannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,16 +569,13 @@
 		};
 		4724832421C231A700E9C69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC25D6FFA3DF73BF61C9968 /* Pods-BBSCycleBannerViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,16 +585,13 @@
 		};
 		4724832521C231A700E9C69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F505784732665B77ECDE76 /* Pods-BBSCycleBannerViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,15 +601,12 @@
 		};
 		4724832721C231A700E9C69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97541A06797FB6F5FF7F2B91 /* Pods-BBSCycleBannerViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,15 +616,12 @@
 		};
 		4724832821C231A700E9C69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885505FD88BE39A8E61707C0 /* Pods-BBSCycleBannerViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y86353KRRQ;
 				INFOPLIST_FILE = BBSCycleBannerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzd.test.BBSCycleBannerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

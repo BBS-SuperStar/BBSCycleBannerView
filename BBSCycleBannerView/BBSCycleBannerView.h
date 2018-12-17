@@ -19,6 +19,7 @@ typedef void(^DidTapImageViewCallBack)(NSInteger index);
 //自动循环播放，默认NO
 @property (nonatomic, assign) BOOL autoCyclePlay;
 @property (nonatomic, assign) NSInteger autoPlayTimeInterval;
+@property (nullable, nonatomic, strong) UIImage *placeholderImage;
 @property (nullable, nonatomic, copy) DidTapImageViewCallBack didTapImageViewCallBack;
 
 @property (nullable, nonatomic, strong) UIColor *pageIndicatorTintColor NS_AVAILABLE_IOS(6_0) UI_APPEARANCE_SELECTOR;

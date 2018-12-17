@@ -7,28 +7,35 @@
 //
 
 #import "BBSCycleBannerView.h"
+#import <UIImageView+WebCache.h>
 
 
 @interface UIImageView (LoadImage)
 
-- (void)updateImageWithData:(id)data;
+- (void)updateImageWithData:(id)data
+           placeholderImage:(UIImage *)placeholderImage;
 
 @end
 
 @implementation UIImageView (LoadImage)
 
-- (void)updateImageWithData:(id)data {
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.contentMode = UIViewContentModeScaleAspectFill;
+        self.clipsToBounds = YES;
+    }
+    return self;
+}
+
+- (void)updateImageWithData:(id)data
+           placeholderImage:(UIImage *)placeholderImage {
     if ([data isMemberOfClass:[UIImage class]]) {
         self.image = data;
     }
     else if ([data isKindOfClass:[NSString class]]) {
-        dispatch_async(dispatch_get_global_queue(0, 0), ^{
-            NSData *imageData = [NSData dataWithContentsOfURL:data];
-            UIImage *image = [UIImage imageWithData:imageData];
-            dispatch_async(dispatch_get_main_queue(), ^{
-               self.image = image;
-            });
-        });
+        [self sd_setImageWithURL:[NSURL URLWithString:data] 
+                placeholderImage:placeholderImage];
     }
 }
 
@@ -98,9 +105,12 @@
 - (void)updateImageSourceData:(NSArray *)images {
     self.imageSourceArray = images;
     self.currentIndex = 0;
-    self.left.image = self.imageSourceArray.lastObject;
-    self.middle.image = self.imageSourceArray[0];
-    self.right.image = self.imageSourceArray[1];
+    [self.left updateImageWithData:self.imageSourceArray.lastObject
+                  placeholderImage:self.placeholderImage];
+    [self.middle updateImageWithData:self.imageSourceArray[0]
+                    placeholderImage:self.placeholderImage];
+    [self.right updateImageWithData:self.imageSourceArray[1]
+                   placeholderImage:self.placeholderImage];
     self.pageControl.numberOfPages = self.imageSourceArray.count;
     self.pageControl.currentPage = self.currentIndex;
 }
@@ -127,9 +137,12 @@
                          centerIndex:(NSInteger)centerIndex
                           rightIndex:(NSInteger)rightIndex {
     self.pageControl.currentPage = self.currentIndex;
-    [self.left updateImageWithData:self.imageSourceArray[leftIndex]];
-    [self.middle updateImageWithData:self.imageSourceArray[centerIndex]];
-    [self.right updateImageWithData:self.imageSourceArray[rightIndex]];
+    [self.left updateImageWithData:self.imageSourceArray[leftIndex]
+                  placeholderImage:self.placeholderImage];
+    [self.middle updateImageWithData:self.imageSourceArray[centerIndex]
+                    placeholderImage:self.placeholderImage];
+    [self.right updateImageWithData:self.imageSourceArray[rightIndex]
+                   placeholderImage:self.placeholderImage];
     
     [self.scrollView setContentOffset:CGPointMake(CGRectGetWidth(self.scrollView.bounds), 0)];
 }
